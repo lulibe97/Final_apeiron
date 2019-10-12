@@ -1,0 +1,30 @@
+{
+    "usuarios": [
+        {
+            "name": "Quick Supplies",
+            "user": "lbellante",
+            "Address": "Mosconi 3451, 1RO A, 1RO A",
+            "City": "aRGENTINA",
+            "State": "Argenitna",
+            "Zip": "1419",
+            "Password": "$2y$10$vCbhsmR3wYxq1iyfjh1Tue4AM3KXpkUvjJLp9cU1FdMtjHx1g9miy"
+        },
+        {
+            "name": "sdas",
+            "user": "mariapiamisa@gmail.com",
+            "Address": "dasd",
+            "City": "dasd",
+            "State": "Argenitna",
+            "Zip": "asddas",
+            "Password": "$2y$10$aOI5NCnWRQZlxtVVW3.yI.b0painl.RvAYDGyUDKLeM.8Ti9jM1n6"
+        },
+        {
+            "name": "",
+            "user": "",
+            "Address": "",
+            "City": "",
+            "State": "Choose...",
+            "Zip": "",
+            "Password": "$2y$10$C\/HZrAoDyJazm2fm1VJdZOw5CyAVZB0KEPRNzIQEw6yum2h1NUI.6"
+        }
+    ]

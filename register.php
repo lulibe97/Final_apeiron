@@ -11,7 +11,7 @@ if ($_POST){
           'Password'=> password_hash ($_POST ['Password'], PASSWORD_DEFAULT),
                   ];
 
-    $usuarios= file_get_contents ('data.json');
+    $usuarios= file_get_contents ('data/users.json');
 
       $data = json_decode ($usuarios, true);
 
@@ -25,7 +25,7 @@ if ($_POST){
 
 $json = json_encode($data, JSON_PRETTY_PRINT);
 
-file_put_contents('data.json', $json);
+file_put_contents('data/users.json', $json);
 
 }
 ?>

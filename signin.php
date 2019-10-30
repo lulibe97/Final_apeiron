@@ -27,6 +27,8 @@ if ($_POST) {
     die;
 
 
+
+
     foreach ($users as $user){
       if ($_POST['email'] === $user['email'] && password_verify($_POST['password'], $user['password'])) {
         $_SESSION['user'] = ['email' => $user['email'], 'password' => $user['password']];
@@ -37,7 +39,6 @@ if ($_POST) {
   }
 
 }
-
  ?>
 
 

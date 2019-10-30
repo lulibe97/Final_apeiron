@@ -21,8 +21,6 @@ if ($_POST){
 
 
 
-
-
 $json = json_encode($data, JSON_PRETTY_PRINT);
 
 file_put_contents('data/users.json', $json);
